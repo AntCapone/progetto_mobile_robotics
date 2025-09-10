@@ -10,3 +10,4 @@ In particular contains the basic workspace that we'll use during this course.
 - **run.sh**: bash script to run our container with all the capabilities and volumes that we need.
 - **exec.sh**: bash script to open a shell to an already running container.
 
+# progetto_mobile_robotics
