@@ -4,7 +4,7 @@ docker run -it --rm --net host --ipc host --privileged \
     -v ~/.Xauthority:/root/.Xauthority \
     -e DISPLAY=$DISPLAY \
     -e XAUTHORITY=$XAUTHORITY \
-    -v ./ros_ws/:/root/ros_workspace \
-    --name lab1 \
-    ros:livelab1 bash
+    -v ./genesis_ws/:/root/genesis_workspace \
+    --name genesis_container \
+    genesis:progetto bash
     
