@@ -6,5 +6,5 @@ docker run -it --rm --net host --ipc host --privileged \
     -e XAUTHORITY=$XAUTHORITY \
     -v ./ros_ws/:/root/ros_workspace \
     --name ros_container \
-    ros:progetto bash
+    ros:progetto
     

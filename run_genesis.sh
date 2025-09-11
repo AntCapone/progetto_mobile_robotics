@@ -6,5 +6,5 @@ docker run -it --rm --net host --ipc host --privileged \
     -e XAUTHORITY=$XAUTHORITY \
     -v ./genesis_ws/:/root/genesis_workspace \
     --name genesis_container \
-    genesis:progetto bash
+    genesis:progetto
     

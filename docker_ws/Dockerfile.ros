@@ -1,0 +1,10 @@
+FROM ros:humble
+
+
+RUN apt-get update && apt-get install -y \
+    python3-pip \
+    python3-colcon-common-extensions 
+RUN apt-get update && apt-get install -y \
+    ros-humble-rqt
+
+WORKDIR /root/ros_workspace

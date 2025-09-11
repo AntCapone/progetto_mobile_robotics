@@ -1,1 +1,1 @@
-docker exec -it genesis_container bash
+docker exec -it genesis_container
