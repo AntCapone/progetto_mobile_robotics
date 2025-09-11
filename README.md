@@ -11,3 +11,8 @@ In particular contains the basic workspace that we'll use during this course.
 - **exec.sh**: bash script to open a shell to an already running container.
 
 # progetto_mobile_robotics
+
+# dovremo avere un progetto composto da :
+# docker_ws
+# gs_ros qui andrà sia la parte di ros che di genesis
+
